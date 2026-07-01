@@ -297,6 +297,66 @@ export const skillCategories = [
 
 export const projects: Project[] = [
   {
+    id: "mommy-kitchen",
+    title: "Mommy-Kitchen",
+    description:
+      "A mobile-first Khmer recipe application built specifically for Moms, featuring visual, touch-friendly navigation and low-literacy accessibility.",
+    // TODO: Replace with actual Mommy-Kitchen screenshot once available
+    image: "/projects/Banking.png",
+    demoUrl: "https://mommy-kitchen.vercel.app",
+    repoUrl: "https://github.com/Mineaworld/Mommy-Kitchen",
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
+    problem:
+      "Traditional recipe apps rely heavily on text-dense layouts and complex navigation, making them difficult to use for older home cooks and non-technical family members.",
+    solution:
+      "Built a visually driven, touch-friendly interface structured around clear imagery, simplified step-by-step guides, and fast search powered by Supabase and Next.js.",
+  },
+  {
+    id: "workouttok",
+    title: "WorkoutTok",
+    description:
+      "A fitness organization workspace designed to save, program, and track workouts discovered on TikTok so they never get lost in saved videos.",
+    // TODO: Replace with actual WorkoutTok screenshot once available
+    image: "/projects/UniAssignment.png",
+    demoUrl: "",
+    repoUrl: "https://github.com/Mineaworld/WorkoutTok",
+    techStack: ["TypeScript", "React", "Next.js", "Tailwind CSS"],
+    problem:
+      "People constantly save workout videos on social platforms like TikTok, but lack an organized way to extract exercises, build structured routines, and track progress over time.",
+    solution:
+      "Created a dedicated fitness dashboard that converts saved short-form workout content into organized exercise routines, weekly programs, and progress logs.",
+  },
+  {
+    id: "library-management-system",
+    title: "Library Management System",
+    description:
+      "A robust library management application built with Object-Oriented Python and Pandas for handling book inventory and patron records.",
+    // TODO: Replace with actual Library Management System screenshot once available
+    image: "/projects/Inventory.png",
+    demoUrl: "",
+    repoUrl: "https://github.com/Mineaworld/library-management-system",
+    techStack: ["Python", "Pandas"],
+    problem:
+      "Small libraries and personal book collections often rely on disorganized spreadsheets or manual record-keeping to track book checkouts and inventory levels.",
+    solution:
+      "Developed a clean object-oriented Python application leveraging Pandas data structures to streamline book cataloging, checkout tracking, and inventory reporting.",
+  },
+  {
+    id: "trading-signal-bot",
+    title: "Trading Signal Bot",
+    description:
+      "An automated trading signal bot engineered in Python to analyze market movements and dispatch real-time trade alerts.",
+    // TODO: Replace with actual Trading Signal Bot screenshot once available
+    image: "/projects/TradeKaizen.png",
+    demoUrl: "",
+    repoUrl: "https://github.com/Mineaworld/trading-signal-bot",
+    techStack: ["Python", "MetaTrader5", "Pandas", "requests", "Telegram"],
+    problem:
+      "Traders monitoring financial markets manually often miss critical entry and exit triggers due to rapid market volatility across time zones.",
+    solution:
+      "Engineered a reliable automated script in Python that evaluates market indicators and delivers instant algorithmic trading signals and notifications.",
+  },
+  {
     id: "bongmala",
     title: "BongMala",
     description:
