@@ -7,6 +7,15 @@ import { Skills } from "@/components/sections/Skills";
 import { Projects } from "@/components/sections/Projects";
 import { Experience } from "@/components/sections/Experience";
 import { Contact } from "@/components/sections/Contact";
+import dynamic from "next/dynamic";
+
+const GithubActivity = dynamic(
+  () => import("@/components/sections/GithubActivity").then((mod) => mod.GithubActivity)
+);
+
+const ScrollToTop = dynamic(
+  () => import("@/components/ui/ScrollToTop").then((mod) => mod.ScrollToTop)
+);
 
 export default function Home() {
   return (
@@ -21,11 +30,14 @@ export default function Home() {
         <PanelDivider />
         <Projects />
         <PanelDivider />
+        <GithubActivity />
+        <PanelDivider />
         <Experience />
         <PanelDivider />
         <Contact />
       </div>
       <Footer />
+      <ScrollToTop />
     </main>
   );
 }

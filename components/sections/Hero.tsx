@@ -10,7 +10,6 @@ export function Hero() {
       <div className="section-panel rise-in">
         <div className="section-panel-header flex flex-wrap items-center justify-between gap-3">
           <p className="label-mono text-muted-foreground">{homepageProfile.role}</p>
-          <span className="accent-chip">{homepageProfile.availability}</span>
         </div>
 
         <div className="section-panel-body space-y-8">

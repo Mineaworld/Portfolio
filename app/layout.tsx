@@ -118,7 +118,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta charSet="utf-8" />
-        <Script id="extension-hydration-cleanup" strategy="beforeInteractive">
+        <Script id="extension-hydration-cleanup">
           {extensionHydrationCleanupScript}
         </Script>
         <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -128,12 +128,6 @@ export default function RootLayout({
           rel="apple-touch-icon"
           sizes="180x180"
           href="/apple-touch-icon.png"
-        />
-        <link
-          rel="preload"
-          href="/favicon-32x32.png"
-          as="image"
-          type="image/png"
         />
       </head>
       <body
