@@ -129,12 +129,6 @@ export default function RootLayout({
           sizes="180x180"
           href="/apple-touch-icon.png"
         />
-        <link
-          rel="preload"
-          href="/favicon-32x32.png"
-          as="image"
-          type="image/png"
-        />
       </head>
       <body
         className={`${inter.variable} ${instrumentSerif.variable} ${spaceMono.variable} font-sans antialiased`}

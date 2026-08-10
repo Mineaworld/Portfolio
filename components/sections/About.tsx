@@ -13,7 +13,7 @@ export function About() {
       <div className="section-panel rise-in">
         <div className="section-panel-header">
           <p className="label-mono text-muted-foreground">About</p>
-          <h2 className="display-title mt-2 text-3xl sm:text-4xl">
+          <h2 className="font-sans font-medium tracking-tight mt-2 text-3xl sm:text-4xl">
             I build products that feel clear, useful, and ready to ship.
           </h2>
         </div>

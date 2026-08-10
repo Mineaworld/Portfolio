@@ -240,6 +240,11 @@ export const skills: Skill[] = [
     icon: "/skills/fallback.svg",
   },
   {
+    name: "Docker",
+    category: "swe_tools",
+    icon: "/skills/docker.svg",
+  },
+  {
     name: "n8n",
     category: "ai_automation",
     icon: "/skills/fallback.svg",
