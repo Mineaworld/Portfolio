@@ -118,7 +118,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta charSet="utf-8" />
-        <Script id="extension-hydration-cleanup">
+        <Script id="extension-hydration-cleanup" strategy="beforeInteractive">
           {extensionHydrationCleanupScript}
         </Script>
         <link rel="icon" href="/favicon.ico" sizes="any" />
