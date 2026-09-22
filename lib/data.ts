@@ -302,6 +302,21 @@ export const skillCategories = [
 
 export const projects: Project[] = [
   {
+    id: "flask-react-inventory",
+    title: "Flask React Inventory",
+    description:
+      "A full-stack inventory management system with role-based access, document workflows for purchases and sales, and an append-only stock movement ledger.",
+    // TODO: Replace with actual Flask-React-Inventory screenshot once available
+    image: "/projects/Inventory.png",
+    demoUrl: "",
+    repoUrl: "https://github.com/Mineaworld/flask-react-inventory",
+    techStack: ["Python", "Flask", "React", "TypeScript", "MySQL", "SQLAlchemy", "TanStack Query"],
+    problem:
+      "Tracking inventory across shared spreadsheets makes it easy to accidentally overwrite stock counts, issue unverified adjustments, or sell items that are already out of stock.",
+    solution:
+      "Built a role-protected system combining a Flask REST API and React interface, using MySQL transactions to record immutable stock movements, enforce document approval flows, and prevent negative balances.",
+  },
+  {
     id: "mommy-kitchen",
     title: "Mommy-Kitchen",
     description:
